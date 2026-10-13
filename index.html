@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Let's create together. Find Lorena's social channels, ELLAS Brands, and ways to work together and support her journey.">
+<title>Lorena · Let’s create together</title>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<main>
+<h1 class="sr-only">Lorena — Let’s create together</h1>
+<section class="dial" aria-label="Lorena’s rotary links">
+<div class="dial-shadow" aria-hidden="true"></div>
+<div class="rotor" id="rotor">
+<svg class="plate" viewBox="0 0 600 600" aria-hidden="true">
+<defs>
+<linearGradient id="chrome" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#14191c"/><stop offset=".12" stop-color="#fcfcfc"/><stop offset=".23" stop-color="#74777a"/><stop offset=".36" stop-color="#dbdcdd"/><stop offset=".48" stop-color="#fdfcf7"/><stop offset=".6" stop-color="#a29b96"/><stop offset=".68" stop-color="#f2d7c7"/><stop offset=".8" stop-color="#454145"/><stop offset=".9" stop-color="#c8cacc"/><stop offset="1" stop-color="#fefefe"/></linearGradient>
+<radialGradient id="glint"><stop stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<filter id="grain"><feTurbulence baseFrequency=".7" numOctaves="3" seed="12" type="fractalNoise"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".12"/></feComponentTransfer><feBlend in="SourceGraphic" mode="soft-light"/></filter>
+<clipPath id="outer-clip"><circle cx="300" cy="300" r="291"/></clipPath><mask id="plate-mask"><rect width="600" height="600" fill="white"/><circle cx="300" cy="300" r="134" fill="black"/></mask>
+</defs>
+<g mask="url(#plate-mask)" clip-path="url(#outer-clip)">
+<circle cx="300" cy="300" r="291" fill="url(#chrome)" stroke="#676768" stroke-width="3"/>
+<circle cx="300" cy="300" r="285" fill="none" stroke="#fff" stroke-width="3"/>
+<circle cx="300" cy="300" r="280" fill="none" stroke="#292b2f" stroke-opacity=".6" stroke-width="2"/>
+<circle cx="300" cy="300" r="276" fill="url(#chrome)" filter="url(#grain)"/>
+<ellipse cx="404" cy="203" rx="140" ry="170" fill="url(#glint)" transform="rotate(35 404 203)"/>
+<path d="M79 341 Q93 474 258 546" fill="none" stroke="#fff" stroke-width="3" opacity=".6"/>
+</g>
+</svg>
+<div id="holes"></div>
+</div>
+<div class="center" aria-hidden="true">
+<div class="center-paper">
+<svg class="caption" viewBox="0 0 240 240"><defs><path id="arc" d="M 30,120 A 90,90 0 0,1 210,120"/></defs><text><textPath href="#arc" startOffset="50%" text-anchor="middle">LET’S CREATE TOGETHER</textPath></text></svg>
+<span class="name">Lorena</span>
+<span class="center-flourish">✦</span>
+</div>
+</div>
+<svg class="finger-stop" viewBox="0 0 600 600" aria-hidden="true"><defs>
+<linearGradient id="arm" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#fff"/><stop offset=".18" stop-color="#98999a"/><stop offset=".33" stop-color="#f9f8f2"/><stop offset=".55" stop-color="#7b6562"/><stop offset=".75" stop-color="#2b2528"/><stop offset=".9" stop-color="#d9d4ce"/><stop offset="1" stop-color="#666"/></linearGradient>
+<filter id="arm-shadow"><feDropShadow dx="-3" dy="5" stdDeviation="3" flood-opacity=".4"/></filter>
+</defs><path d="M484 352 C489 343 494 350 499 360 Q529 393 579 382 Q582 400 566 418 L546 448 Q535 451 527 439 L488 386 Q480 372 484 352Z" fill="url(#arm)" stroke="#898583" stroke-width="3" filter="url(#arm-shadow)"/><path d="M490 353 Q519 398 576 387" fill="none" stroke="#fff" stroke-opacity=".9" stroke-width="4"/></svg>
+</section>
+<nav class="links" id="links" aria-label="Find Lorena"></nav>
+<div class="controls"><button id="pause" type="button" aria-pressed="false"><span class="pause-icon" aria-hidden="true">Ⅱ</span><span id="pause-label">Pause dial</span></button><span class="hint">A little spin. A new connection.</span></div>
+<p id="status" class="sr-only" role="status" aria-live="polite"></p>
+</main>
+</body></html>
